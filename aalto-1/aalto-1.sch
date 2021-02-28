@@ -82,7 +82,7 @@ F 11 "https://www.arrow.com/en/products/tps2556drbr/texas-instruments" H 3050 39
 	1    0    0    -1  
 $EndComp
 $Comp
-L MSP430F2274IRHAT:MSP430F2274IRHAT IC?
+L aalto-1-rescue:MSP430F2274IRHAT-MSP430F2274IRHAT IC?
 U 1 1 603BFCBF
 P 6850 1950
 F 0 "IC?" H 10694 1446 50  0000 L CNN

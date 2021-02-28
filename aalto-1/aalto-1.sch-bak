@@ -81,4 +81,23 @@ F 11 "https://www.arrow.com/en/products/tps2556drbr/texas-instruments" H 3050 39
 	1    2000 4750
 	1    0    0    -1  
 $EndComp
+$Comp
+L MSP430F2274IRHAT:MSP430F2274IRHAT IC?
+U 1 1 603BFCBF
+P 6850 1950
+F 0 "IC?" H 10694 1446 50  0000 L CNN
+F 1 "MSP430F2274IRHAT" H 10694 1355 50  0000 L CNN
+F 2 "QFN50P600X600X100-41N-D" H 10500 3050 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/msp430f2274.pdf" H 10500 2950 50  0001 L CNN
+F 4 "MSP430F2274IRHAT, 16 bit MSP430 Microcontroller 16MHz 32kb Flash, 1kb RAM, I2C LIN SPI 40-Pin VQFN" H 10500 2850 50  0001 L CNN "Description"
+F 5 "1" H 10500 2750 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 10500 2650 50  0001 L CNN "Manufacturer_Name"
+F 7 "MSP430F2274IRHAT" H 10500 2550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-MSP430F2274IRHAT" H 10500 2450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-MSP430F2274IRHAT" H 10500 2350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MSP430F2274IRHAT" H 10500 2250 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/msp430f2274irhat/texas-instruments" H 10500 2150 50  0001 L CNN "Arrow Price/Stock"
+	1    6850 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
