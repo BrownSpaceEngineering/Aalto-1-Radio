@@ -4,4 +4,5 @@
   (lib (name CC2500-RTY1)(type Legacy)(uri /Users/kathryncaldwell/Desktop/LIB_CC2500-RTY1/CC2500-RTY1/KiCad/CC2500-RTY1.lib)(options "")(descr ""))
   (lib (name ABM11W-26.0000MHZ-6-D1X-T3)(type Legacy)(uri /Users/kathryncaldwell/Desktop/LIB_ABM11W-26.0000MHZ-6-D1X-T3/ABM11W-26.0000MHZ-6-D1X-T3/KiCad/ABM11W-26.0000MHZ-6-D1X-T3.lib)(options "")(descr ""))
   (lib (name TPS2556DRBR)(type Legacy)(uri C:/Users/Prashanth/Desktop/LIB_TPS2556DRBR/TPS2556DRBR/KiCad/TPS2556DRBR.lib)(options "")(descr ""))
+  (lib (name MSP430F2274IRHAT)(type Legacy)(uri /Users/kathryncaldwell/Desktop/LIB_MSP430F2274IRHAT/MSP430F2274IRHAT/KiCad/MSP430F2274IRHAT.lib)(options "")(descr ""))
 )
