@@ -44,7 +44,7 @@ F 11 "" H 6400 3600 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MSP430F2274IYFFR:MSP430F2274IYFFR IC?
+L aalto-1-rescue:MSP430F2274IYFFR-MSP430F2274IYFFR IC?
 U 1 1 603BEFA5
 P 6800 850
 F 0 "IC?" H 8350 1115 50  0000 C CNN
@@ -60,6 +60,25 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-MSP430F2274IYFFR" H 9
 F 10 "MSP430F2274IYFFR" H 9750 150 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/msp430f2274iyffr/texas-instruments" H 9750 50  50  0001 L CNN "Arrow Price/Stock"
 	1    6800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABM11W-26.0000MHZ-6-D1X-T3:ABM11W-26.0000MHZ-6-D1X-T3 Y?
+U 1 1 603BF50A
+P 1950 2250
+F 0 "Y?" H 2750 2515 50  0000 C CNN
+F 1 "ABM11W-26.0000MHZ-6-D1X-T3" H 2750 2424 50  0000 C CNN
+F 2 "ABM11W300000MHZ4B1UT3" H 3400 2350 50  0001 L CNN
+F 3 "https://abracon.com/Resonators/ABM11W.pdf" H 3400 2250 50  0001 L CNN
+F 4 "Crystals 26MHz 6pF -40C +85C 10ppm" H 3400 2150 50  0001 L CNN "Description"
+F 5 "0" H 3400 2050 50  0001 L CNN "Height"
+F 6 "ABRACON" H 3400 1950 50  0001 L CNN "Manufacturer_Name"
+F 7 "ABM11W-26.0000MHZ-6-D1X-T3" H 3400 1850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "815-11W26-6D1XT" H 3400 1750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM11W-260000MHZ-6-D1X-T3/?qs=5aG0NVq1C4z1GA6BiaLhDQ%3D%3D" H 3400 1650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3400 1550 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3400 1450 50  0001 L CNN "Arrow Price/Stock"
+	1    1950 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

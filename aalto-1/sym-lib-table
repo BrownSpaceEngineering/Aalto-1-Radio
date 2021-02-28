@@ -2,4 +2,5 @@
   (lib (name bse_symbols)(type Legacy)(uri /Users/laurenadachi/Documents/GitHub/Aalto-1-Radio/library/bse_symbols.lib)(options "")(descr ""))
   (lib (name aalto-1-rescue)(type Legacy)(uri ${KIPRJMOD}/aalto-1-rescue.lib)(options "")(descr ""))
   (lib (name CC2500-RTY1)(type Legacy)(uri /Users/kathryncaldwell/Desktop/LIB_CC2500-RTY1/CC2500-RTY1/KiCad/CC2500-RTY1.lib)(options "")(descr ""))
+  (lib (name ABM11W-26.0000MHZ-6-D1X-T3)(type Legacy)(uri /Users/kathryncaldwell/Desktop/LIB_ABM11W-26.0000MHZ-6-D1X-T3/ABM11W-26.0000MHZ-6-D1X-T3/KiCad/ABM11W-26.0000MHZ-6-D1X-T3.lib)(options "")(descr ""))
 )
