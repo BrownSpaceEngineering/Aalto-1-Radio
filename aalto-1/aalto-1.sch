@@ -43,4 +43,23 @@ F 11 "" H 6400 3600 50  0001 L CNN "Arrow Price/Stock"
 	1    5150 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L MSP430F2274IYFFR:MSP430F2274IYFFR IC?
+U 1 1 603BEFA5
+P 6800 850
+F 0 "IC?" H 8350 1115 50  0000 C CNN
+F 1 "MSP430F2274IYFFR" H 8350 1024 50  0000 C CNN
+F 2 "BGA49C40P7X7_333X349X62" H 9750 950 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/msp430f2274" H 9750 850 50  0001 L CNN
+F 4 "16-bit Ultra-Low-Power Microcontroller, 32KB Flash, 1K RAM" H 9750 750 50  0001 L CNN "Description"
+F 5 "0.625" H 9750 650 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 9750 550 50  0001 L CNN "Manufacturer_Name"
+F 7 "MSP430F2274IYFFR" H 9750 450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-MSP430F2274IYFFR" H 9750 350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-MSP430F2274IYFFR" H 9750 250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "MSP430F2274IYFFR" H 9750 150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/msp430f2274iyffr/texas-instruments" H 9750 50  50  0001 L CNN "Arrow Price/Stock"
+	1    6800 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
