@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+3.3V #PWR?
+L aalto-1-rescue:+3.3V-power #PWR?
 U 1 1 600DD306
 P 9450 5100
 F 0 "#PWR?" H 9450 4950 50  0001 C CNN
