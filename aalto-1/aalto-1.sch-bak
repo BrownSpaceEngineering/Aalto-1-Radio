@@ -100,4 +100,15 @@ F 11 "https://www.arrow.com/en/products/msp430f2274irhat/texas-instruments" H 10
 	1    6850 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L aalto-1-rescue:RF5602 U?
+U 1 1 603F2812
+P 5100 1900
+F 0 "U?" H 5050 2715 50  0000 C CNN
+F 1 "RF5602" H 5050 2624 50  0000 C CNN
+F 2 "" H 5350 1200 50  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+	1    5100 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

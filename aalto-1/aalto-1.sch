@@ -111,4 +111,12 @@ F 3 "" H 5350 1200 50  0001 C CNN
 	1    5100 1900
 	1    0    0    -1  
 $EndComp
+Text Label 5300 1200 0    50   ~ 0
+PowerAmplifier
+Text Label 9800 800  0    50   ~ 0
+Microcontroller
+Text Label 2950 4550 0    50   ~ 0
+PowerSwitch
+Text Label 6150 3400 0    50   ~ 0
+RFTransciever
 $EndSCHEMATC
