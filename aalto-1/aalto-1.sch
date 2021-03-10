@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -119,4 +119,22 @@ Text Label 2950 4550 0    50   ~ 0
 PowerSwitch
 Text Label 6150 3400 0    50   ~ 0
 RFTransciever
+$Sheet
+S 1750 9700 2950 1300
+U 6048217D
+F0 "Sheet6048217C" 50
+F1 "Microcontroller + Bus.sch" 50
+$EndSheet
+$Sheet
+S 6350 9800 2700 1000
+U 6048232F
+F0 "Sheet6048232E" 50
+F1 "PA + PS.sch" 50
+$EndSheet
+$Sheet
+S 10350 9800 3000 1350
+U 6048246D
+F0 "Sheet6048246C" 50
+F1 "Oscillator + Transciever.sch" 50
+$EndSheet
 $EndSCHEMATC
