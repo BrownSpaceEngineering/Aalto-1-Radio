@@ -75,7 +75,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3100 4000 3500
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 6048BD46
 P 2150 3950
 F 0 "#PWR?" H 2150 3700 50  0001 C CNN
@@ -86,7 +86,7 @@ F 3 "" H 2150 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 6048C403
 P 4000 3950
 F 0 "#PWR?" H 4000 3700 50  0001 C CNN
@@ -153,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 1050 5150 1050
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 60491E98
 P 5350 2900
 F 0 "#PWR?" H 5350 2650 50  0001 C CNN
@@ -164,7 +164,7 @@ F 3 "" H 5350 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 60492517
 P 5800 2900
 F 0 "#PWR?" H 5800 2650 50  0001 C CNN
@@ -175,7 +175,7 @@ F 3 "" H 5800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 604926EF
 P 5500 1700
 F 0 "#PWR?" H 5500 1450 50  0001 C CNN
@@ -219,7 +219,7 @@ Connection ~ 5600 2600
 Wire Wire Line
 	5600 2600 5800 2600
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 60496543
 P 5150 1700
 F 0 "#PWR?" H 5150 1450 50  0001 C CNN
@@ -256,7 +256,7 @@ F 3 "~" H 4600 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 60497F0F
 P 4350 2550
 F 0 "#PWR?" H 4350 2300 50  0001 C CNN
@@ -305,7 +305,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 3700 6850 3550
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 6049A99F
 P 5000 4000
 F 0 "#PWR?" H 5000 3750 50  0001 C CNN
@@ -332,7 +332,7 @@ F 3 "~" H 7700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 6049E65B
 P 7700 2950
 F 0 "#PWR?" H 7700 2700 50  0001 C CNN
@@ -363,7 +363,7 @@ F 3 "~" H 8400 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 604A2644
 P 8400 2650
 F 0 "#PWR?" H 8400 2400 50  0001 C CNN
@@ -394,7 +394,7 @@ F 3 "~" H 9250 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L aalto-1-rescue:GND-power #PWR?
 U 1 1 604A438D
 P 9250 2550
 F 0 "#PWR?" H 9250 2300 50  0001 C CNN
