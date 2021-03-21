@@ -138,7 +138,7 @@ F0 "Sheet6048246C" 50
 F1 "Oscillator + Transciever.sch" 50
 $EndSheet
 $Comp
-L RFPA5200:RFPA5200 IC?
+L aalto-1-rescue:RFPA5200-RFPA5200 IC?
 U 1 1 6051A5FC
 P 2050 3350
 F 0 "IC?" H 2700 3615 50  0000 C CNN

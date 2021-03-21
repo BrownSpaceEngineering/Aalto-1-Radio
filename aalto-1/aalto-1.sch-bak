@@ -137,4 +137,23 @@ U 6048246D
 F0 "Sheet6048246C" 50
 F1 "Oscillator + Transciever.sch" 50
 $EndSheet
+$Comp
+L aalto-1-rescue:RFPA5200-RFPA5200 IC?
+U 1 1 6051A5FC
+P 2050 3350
+F 0 "IC?" H 2700 3615 50  0000 C CNN
+F 1 "RFPA5200" H 2700 3524 50  0000 C CNN
+F 2 "RFPA5200" H 3200 3450 50  0001 L CNN
+F 3 "https://www.qorvo.com/products/d/da001012" H 3200 3350 50  0001 L CNN
+F 4 "RF Amplifier 2.4-2.5GHz Gain 33dB Pout 27dBm 5V" H 3200 3250 50  0001 L CNN "Description"
+F 5 "1.05" H 3200 3150 50  0001 L CNN "Height"
+F 6 "Qorvo" H 3200 3050 50  0001 L CNN "Manufacturer_Name"
+F 7 "RFPA5200" H 3200 2950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "N/A" H 3200 2850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 3200 2750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3200 2650 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3200 2550 50  0001 L CNN "Arrow Price/Stock"
+	1    2050 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
