@@ -31,17 +31,6 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 6400 3950 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 60586D7C
-P 5500 5850
-F 0 "C?" H 5615 5896 50  0000 L CNN
-F 1 "330pF" H 5615 5805 50  0000 L CNN
-F 2 "" H 5538 5700 50  0001 C CNN
-F 3 "~" H 5500 5850 50  0001 C CNN
-	1    5500 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 6058761D
 P 5500 6200
@@ -53,15 +42,11 @@ F 3 "" H 5500 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5500 6000 5500 6200
-Wire Wire Line
 	5500 5550 4950 5550
 Wire Wire Line
 	4950 5550 4950 4950
 Wire Wire Line
 	4950 4950 5250 4950
-Wire Wire Line
-	5500 5550 5500 5700
 Text Label 5500 5550 2    50   ~ 0
 PDETECT_RF5200
 $Comp
@@ -138,28 +123,6 @@ F 3 "~" H 7400 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
-U 1 1 6058DDFE
-P 8650 4950
-F 0 "R?" H 8720 4996 50  0000 L CNN
-F 1 "R" H 8720 4905 50  0000 L CNN
-F 2 "" V 8580 4950 50  0001 C CNN
-F 3 "~" H 8650 4950 50  0001 C CNN
-	1    8650 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 6058E688
-P 9200 4600
-F 0 "R?" V 8993 4600 50  0000 C CNN
-F 1 "R" V 9084 4600 50  0000 C CNN
-F 2 "" V 9130 4600 50  0001 C CNN
-F 3 "~" H 9200 4600 50  0001 C CNN
-	1    9200 4600
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 6058F151
 P 8250 5700
@@ -191,48 +154,8 @@ Wire Wire Line
 	8250 5450 8250 5550
 Wire Wire Line
 	7550 5450 8250 5450
-Wire Wire Line
-	8250 5450 8250 4600
-Wire Wire Line
-	8250 4600 8650 4600
-Connection ~ 8250 5450
-Wire Wire Line
-	8650 4800 8650 4600
-Connection ~ 8650 4600
-Wire Wire Line
-	8650 4600 9050 4600
-$Comp
-L power:GND #PWR?
-U 1 1 60592C66
-P 8650 5250
-F 0 "#PWR?" H 8650 5000 50  0001 C CNN
-F 1 "GND" H 8655 5077 50  0000 C CNN
-F 2 "" H 8650 5250 50  0001 C CNN
-F 3 "" H 8650 5250 50  0001 C CNN
-	1    8650 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8650 5100 8650 5250
-Text Label 9800 4500 2    50   ~ 0
+Text Label 8650 5450 2    50   ~ 0
 VCC_PA
-Text Label 8400 4600 2    50   ~ 0
-VREG
-Wire Wire Line
-	9350 4600 9800 4600
-Wire Wire Line
-	9800 4600 9800 4500
-$Comp
-L Device:L L?
-U 1 1 605951BD
-P 3700 4750
-F 0 "L?" V 3890 4750 50  0000 C CNN
-F 1 "1.8nH" V 3799 4750 50  0000 C CNN
-F 2 "" H 3700 4750 50  0001 C CNN
-F 3 "~" H 3700 4750 50  0001 C CNN
-	1    3700 4750
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 60595AE6
@@ -244,30 +167,11 @@ F 3 "~" H 3400 5050 50  0001 C CNN
 	1    3400 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 6059635B
-P 2950 4750
-F 0 "R?" V 2743 4750 50  0000 C CNN
-F 1 "R" V 2834 4750 50  0000 C CNN
-F 2 "" V 2880 4750 50  0001 C CNN
-F 3 "~" H 2950 4750 50  0001 C CNN
-	1    2950 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3100 4750 3400 4750
-Wire Wire Line
-	3850 4750 5250 4750
 Wire Wire Line
 	3400 4900 3400 4750
 Connection ~ 3400 4750
-Wire Wire Line
-	3400 4750 3550 4750
 Text Label 2500 4750 2    50   ~ 0
 VCC_PA
-Wire Wire Line
-	2500 4750 2800 4750
 $Comp
 L power:GND #PWR?
 U 1 1 60598A3A
@@ -283,4 +187,17 @@ Wire Wire Line
 	3400 5200 3400 5350
 Text Label 5100 4750 2    50   ~ 0
 VCC_RF5200
+Wire Wire Line
+	8250 5450 8650 5450
+Connection ~ 8250 5450
+Text Notes 7200 5600 0    50   ~ 0
+Around 400Ω\n
+Wire Wire Line
+	5500 5550 5500 6200
+Text Notes 4900 5900 0    50   ~ 0
+Removed C as per Larson's advice\n
+Wire Wire Line
+	2500 4750 3400 4750
+Wire Wire Line
+	3400 4750 5250 4750
 $EndSCHEMATC
