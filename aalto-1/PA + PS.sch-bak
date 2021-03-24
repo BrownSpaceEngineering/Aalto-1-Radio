@@ -47,8 +47,6 @@ Wire Wire Line
 	4950 5550 4950 4950
 Wire Wire Line
 	4950 4950 5250 4950
-Text Label 5500 5550 2    50   ~ 0
-PDETECT_RF5200
 $Comp
 L power:GND #PWR?
 U 1 1 60588B39
@@ -66,8 +64,6 @@ Wire Wire Line
 	4350 4850 5250 4850
 Text Label 7100 4850 2    50   ~ 0
 VREG
-Wire Wire Line
-	6550 4850 7100 4850
 Text Label 5100 4550 2    50   ~ 0
 RF_IN
 Wire Wire Line
@@ -149,13 +145,9 @@ Wire Wire Line
 Wire Wire Line
 	6550 4750 7250 4750
 Wire Wire Line
-	7250 4750 7250 5450
+	7250 4750 7250 4850
 Wire Wire Line
 	8250 5450 8250 5550
-Wire Wire Line
-	7550 5450 8250 5450
-Text Label 8650 5450 2    50   ~ 0
-VCC_PA
 $Comp
 L Device:C C?
 U 1 1 60595AE6
@@ -170,8 +162,6 @@ $EndComp
 Wire Wire Line
 	3400 4900 3400 4750
 Connection ~ 3400 4750
-Text Label 2500 4750 2    50   ~ 0
-VCC_PA
 $Comp
 L power:GND #PWR?
 U 1 1 60598A3A
@@ -200,4 +190,19 @@ Wire Wire Line
 	2500 4750 3400 4750
 Wire Wire Line
 	3400 4750 5250 4750
+Text Notes 2650 4750 0    50   ~ 0
+Removed R and L as per Larson's advice\n
+Text GLabel 8650 5450 2    50   Input ~ 0
+VCC_PA
+Text GLabel 2500 4750 0    50   Input ~ 0
+VCC_PA
+Text GLabel 5500 5550 2    50   Input ~ 0
+PDETECT_RF5200
+Wire Wire Line
+	7550 5450 8250 5450
+Wire Wire Line
+	6550 4850 7250 4850
+Connection ~ 7250 4850
+Wire Wire Line
+	7250 4850 7250 5450
 $EndSCHEMATC

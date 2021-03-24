@@ -15,19 +15,6 @@ Comment4 ""
 $EndDescr
 Wire Wire Line
 	7500 2250 5850 2250
-$Comp
-L aalto-1-rescue:+3.3V-power #PWR?
-U 1 1 604880D4
-P 7750 2150
-AR Path="/604880D4" Ref="#PWR?"  Part="1" 
-AR Path="/6048217D/604880D4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7750 2000 50  0001 C CNN
-F 1 "+3.3V" H 7765 2323 50  0000 C CNN
-F 2 "" H 7750 2150 50  0001 C CNN
-F 3 "" H 7750 2150 50  0001 C CNN
-	1    7750 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7700 2250 7750 2250
 Wire Wire Line
@@ -208,7 +195,7 @@ Wire Wire Line
 	3700 1950 3700 2050
 Connection ~ 3700 2050
 Wire Wire Line
-	3700 2050 4350 2050
+	3700 2050 4250 2050
 $Comp
 L aalto-1-rescue:GND-power #PWR?
 U 1 1 604FC070
@@ -279,60 +266,18 @@ F 11 "https://www.arrow.com/en/products/msp430f2274irhat/texas-instruments" H 97
 	1    6100 3550
 	1    0    0    -1  
 $EndComp
-Text Label 5300 3650 0    50   ~ 0
-GDO2_CC2500
-Wire Wire Line
-	6100 3650 5300 3650
-Text Label 5300 3750 0    50   ~ 0
-GDO0_CC2500
-Wire Wire Line
-	6100 3750 5300 3750
-Text Label 5300 3950 0    50   ~ 0
-SPY_BY_WIRE_RST
-Wire Wire Line
-	6100 3950 5300 3950
-Text Label 5300 4050 0    50   ~ 0
-PDEDECT_RF5602
-Wire Wire Line
-	6100 4050 5300 4050
-Text Label 5300 4350 0    50   ~ 0
-CLK_OBC
-Wire Wire Line
-	6100 4350 5300 4350
-Text Label 5300 4450 0    50   ~ 0
-SIMO_CC2500
 Wire Wire Line
 	6100 4450 5300 4450
-Text Label 7500 6200 3    50   ~ 0
-SOMI_CC2500
 Wire Wire Line
 	7500 5950 7500 6200
-Text Label 7600 6200 3    50   ~ 0
-CLK_CC2500
-Wire Wire Line
-	7600 6450 7600 5950
-Text Label 7800 6250 3    50   ~ 0
-VCC3.3
-Wire Wire Line
-	7800 6250 7800 5950
-Text Label 10400 4150 2    50   ~ 0
-PROG_RX
 Wire Wire Line
 	9900 4150 10400 4150
-Text Label 10550 3550 2    50   ~ 0
-CSN_CC2500
 Wire Wire Line
 	9900 3550 10550 3550
-Text Label 8400 1950 3    50   ~ 0
-PDOWN
 Wire Wire Line
 	8400 2250 8400 1950
-Text Label 8300 1950 3    50   ~ 0
-FAULT
 Wire Wire Line
 	8300 1950 8300 2250
-Text Label 7900 1200 3    50   ~ 0
-SPY_BY_WIRE_TEST
 Wire Wire Line
 	7900 1200 7900 2250
 $Comp
@@ -450,8 +395,6 @@ F 3 "~" H 2900 6200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 6050 2900 5700
-Text Label 1600 5700 2    50   ~ 0
-VCC_3.3
 Wire Wire Line
 	1600 5700 1800 5700
 Wire Wire Line
@@ -592,4 +535,61 @@ Text Label 3900 4950 2    50   ~ 0
 GPS_TX
 Wire Wire Line
 	3900 4950 4100 4950
+Text GLabel 4950 3650 0    50   Input ~ 0
+GDO2_CC2500
+Text GLabel 4950 3950 0    50   Input ~ 0
+SPY_BY_WIRE_RST
+Text GLabel 5700 4050 0    50   Input ~ 0
+PDETECT_RF5200
+Text GLabel 5700 4350 0    50   Input ~ 0
+CLK_OBC
+Text GLabel 5300 4450 0    50   Input ~ 0
+SIMO_CC2500
+Text GLabel 7500 6200 0    50   Input ~ 0
+SOMI_CC2500
+Text GLabel 7550 6350 0    50   Input ~ 0
+CLK_CC2500
+Text GLabel 7750 6450 0    50   Input ~ 0
+VCC3.3
+Text GLabel 10550 3550 2    50   Input ~ 0
+CSN_CC2500
+Text GLabel 5700 3750 0    50   Input ~ 0
+GDO0_CC2500
+Wire Wire Line
+	6100 4350 5700 4350
+Wire Wire Line
+	6100 4050 5700 4050
+Wire Wire Line
+	4950 3950 6100 3950
+Wire Wire Line
+	5700 3750 6100 3750
+Wire Wire Line
+	4950 3650 6100 3650
+Wire Wire Line
+	7750 6450 7800 6450
+Wire Wire Line
+	7800 5950 7800 6450
+Wire Wire Line
+	7550 6350 7600 6350
+Wire Wire Line
+	7600 6350 7600 5950
+Text Label 8400 1950 0    50   ~ 0
+PDOWN
+Text Label 8300 1950 2    50   ~ 0
+FAULT
+Text Label 7900 1200 2    50   ~ 0
+SPY_BY_WIRE_TEST
+Text Label 10400 4150 0    50   ~ 0
+PROG_RX
+Text GLabel 7750 2150 0    50   Input ~ 0
+VCC3.3
+Text GLabel 900  5700 0    50   Input ~ 0
+VCC3.3
+Text GLabel 4250 1850 0    50   Input ~ 0
+VCC_PA
+Wire Wire Line
+	4250 1850 4250 2050
+Connection ~ 4250 2050
+Wire Wire Line
+	4250 2050 4350 2050
 $EndSCHEMATC
