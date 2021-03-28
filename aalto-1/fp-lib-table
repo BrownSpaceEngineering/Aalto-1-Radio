@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name bse_footprints)(type KiCad)(uri /Users/laurenadachi/Documents/GitHub/Aalto-1-Radio/library/bse_footprints.pretty)(options "")(descr ""))
+  (lib (name MSP430F2274IYFFR)(type Legacy)(uri C:/Users/Prashanth/Downloads/LIB_MSP430F2274IYFFR/MSP430F2274IYFFR/KiCad/MSP430F2274IYFFR.mod)(options "")(descr ""))
 )
