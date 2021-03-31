@@ -253,7 +253,7 @@ U 1 1 60482A2A
 P 6100 3550
 F 0 "IC2" H 7050 3700 50  0000 L CNN
 F 1 "MSP430F2274IRHAT-MSP430F2274IRHAT" H 7250 3700 50  0000 L CNN
-F 2 "QFN50P600X600X100-41N-D" H 9750 4650 50  0001 L CNN
+F 2 "MSP430F2274IRHAT:QFN50P600X600X100-41N-D" H 9750 4650 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/msp430f2274.pdf" H 9750 4550 50  0001 L CNN
 F 4 "MSP430F2274IRHAT, 16 bit MSP430 Microcontroller 16MHz 32kb Flash, 1kb RAM, I2C LIN SPI 40-Pin VQFN" H 9750 4450 50  0001 L CNN "Description"
 F 5 "1" H 9750 4350 50  0001 L CNN "Height"
@@ -281,7 +281,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 1200 7900 2250
 $Comp
-L Connector_Generic:Conn_2Rows-53Pins J1
+L aalto-1-rescue:Conn_2Rows-53Pins-Connector_Generic J1
 U 1 1 6059B65A
 P 2000 5700
 F 0 "J1" H 2050 7217 50  0000 C CNN
@@ -292,7 +292,7 @@ F 3 "~" H 2000 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_2Rows-53Pins J2
+L aalto-1-rescue:Conn_2Rows-53Pins-Connector_Generic J2
 U 1 1 605A3F15
 P 4300 5750
 F 0 "J2" H 4350 7267 50  0000 C CNN
@@ -331,7 +331,7 @@ VCC
 Wire Wire Line
 	1600 5600 1800 5600
 $Comp
-L power:GND #PWR06
+L aalto-1-rescue:GND-power #PWR06
 U 1 1 605B744F
 P 2950 5000
 F 0 "#PWR06" H 2950 4750 50  0001 C CNN
@@ -348,14 +348,6 @@ Wire Wire Line
 	2300 4700 2950 4700
 Wire Wire Line
 	2300 5000 2950 5000
-Text Label 2800 4800 2    50   ~ 0
-SBAND_CLK-
-Text Label 2850 4900 2    50   ~ 0
-SBAND_MOSI-
-Wire Wire Line
-	2850 4900 2300 4900
-Wire Wire Line
-	2800 4800 2300 4800
 Text Label 3000 5300 2    50   ~ 0
 SPY_BY_WIRE_RST
 Wire Wire Line
@@ -363,7 +355,7 @@ Wire Wire Line
 Text Label 3200 5700 2    50   ~ 0
 3.3GPS
 $Comp
-L power:GND #PWR05
+L aalto-1-rescue:GND-power #PWR05
 U 1 1 605D0A4B
 P 2600 5950
 F 0 "#PWR05" H 2600 5700 50  0001 C CNN
@@ -436,7 +428,7 @@ Wire Wire Line
 	900  6250 700  6250
 Connection ~ 1600 5700
 $Comp
-L power:GND #PWR01
+L aalto-1-rescue:GND-power #PWR01
 U 1 1 605EA99D
 P 700 6550
 F 0 "#PWR01" H 700 6300 50  0001 C CNN
@@ -447,7 +439,7 @@ F 3 "" H 700 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L aalto-1-rescue:GND-power #PWR02
 U 1 1 605EB0FD
 P 1150 6550
 F 0 "#PWR02" H 1150 6300 50  0001 C CNN
@@ -463,7 +455,7 @@ Connection ~ 900  6250
 Wire Wire Line
 	900  5700 1600 5700
 $Comp
-L power:GND #PWR07
+L aalto-1-rescue:GND-power #PWR07
 U 1 1 605F9A31
 P 3400 6350
 F 0 "#PWR07" H 3400 6100 50  0001 C CNN
@@ -486,7 +478,7 @@ Wire Wire Line
 	3400 4650 3400 5650
 Connection ~ 3400 5650
 $Comp
-L power:GND #PWR011
+L aalto-1-rescue:GND-power #PWR011
 U 1 1 606037E3
 P 5350 6350
 F 0 "#PWR011" H 5350 6100 50  0001 C CNN
@@ -537,12 +529,8 @@ Wire Wire Line
 	3900 4950 4100 4950
 Text GLabel 4950 3650 0    50   Input ~ 0
 GDO2_CC2500
-Text GLabel 4950 3950 0    50   Input ~ 0
-SPY_BY_WIRE_RST
 Text GLabel 5700 4050 0    50   Input ~ 0
 PDETECT_RF5200
-Text GLabel 5700 4350 0    50   Input ~ 0
-CLK_OBC
 Text GLabel 5300 4450 0    50   Input ~ 0
 SIMO_CC2500
 Text GLabel 7500 6200 0    50   Input ~ 0
@@ -592,4 +580,12 @@ Wire Wire Line
 Connection ~ 4250 2050
 Wire Wire Line
 	4250 2050 4350 2050
+Text Label 8500 2100 0    50   ~ 0
+OBC_CSN
+Wire Wire Line
+	8500 2100 8500 2250
+Text Label 4950 3950 2    50   ~ 0
+SPY_BY_WIRE_RST
+Text Label 5700 4350 2    50   ~ 0
+CLK_OBC
 $EndSCHEMATC

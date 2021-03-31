@@ -19,7 +19,7 @@ U 1 1 6057919A
 P 5250 4550
 F 0 "IC3" H 5900 4815 50  0000 C CNN
 F 1 "RFPA5200-RFPA5200" H 5900 4724 50  0000 C CNN
-F 2 "RFPA5200" H 6400 4650 50  0001 L CNN
+F 2 "RFPA5200:RFPA5200" H 6400 4650 50  0001 L CNN
 F 3 "https://www.qorvo.com/products/d/da001012" H 6400 4550 50  0001 L CNN
 F 4 "RF Amplifier 2.4-2.5GHz Gain 33dB Pout 27dBm 5V" H 6400 4450 50  0001 L CNN "Description"
 F 5 "1.05" H 6400 4350 50  0001 L CNN "Height"
@@ -31,7 +31,7 @@ F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" H 6400 3950 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L aalto-1-rescue:GND-power #PWR016
 U 1 1 6058761D
 P 5500 6200
 F 0 "#PWR016" H 5500 5950 50  0001 C CNN
@@ -48,7 +48,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4950 5250 4950
 $Comp
-L power:GND #PWR015
+L aalto-1-rescue:GND-power #PWR015
 U 1 1 60588B39
 P 4350 5450
 F 0 "#PWR015" H 4350 5200 50  0001 C CNN
@@ -69,7 +69,7 @@ RF_IN
 Wire Wire Line
 	5100 4550 5250 4550
 $Comp
-L power:GND #PWR014
+L aalto-1-rescue:GND-power #PWR014
 U 1 1 6058AB5F
 P 4300 4650
 F 0 "#PWR014" H 4300 4400 50  0001 C CNN
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5300 5250 5050
 $Comp
-L power:GND #PWR017
+L aalto-1-rescue:GND-power #PWR017
 U 1 1 6058C322
 P 7550 4750
 F 0 "#PWR017" H 7550 4500 50  0001 C CNN
@@ -130,7 +130,7 @@ F 3 "~" H 8250 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L aalto-1-rescue:GND-power #PWR018
 U 1 1 6058FB72
 P 8250 6000
 F 0 "#PWR018" H 8250 5750 50  0001 C CNN
@@ -163,7 +163,7 @@ Wire Wire Line
 	3400 4900 3400 4750
 Connection ~ 3400 4750
 $Comp
-L power:GND #PWR013
+L aalto-1-rescue:GND-power #PWR013
 U 1 1 60598A3A
 P 3400 5350
 F 0 "#PWR013" H 3400 5100 50  0001 C CNN
